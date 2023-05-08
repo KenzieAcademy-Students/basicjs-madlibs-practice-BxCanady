@@ -3,17 +3,32 @@
 
 // Create your own Madlibs story!
 
-let animal = prompt("Name a kind of animal (singular):");
-let place = prompt("Name a place:");
-let food = prompt("Name a food (plural):");
 
-document.write("Here is a story for you!<br>");
+
+// Use the prompt function to get user input
+let car = prompt("Enter a brand of car:");
+let carColor = prompt("Enter color of car:");
+let food = prompt("Enter favorite food:");
+let beach = prompt("Enter a beach name:");
+let bestFriend = prompt("Enter your best friend name");
+
+
 document.write(
-  "The giant "
-  + animal
-  + " walked proudly through "
-  + place
-  + ", dropping "
-  + food
-  + " everywhere."
-);
+  " Me and my best friend "
+  + bestFriend
+  + " decided to go to "
+  + beach
+  + " . We packed and drove my "
+  + carColor
+  + " "
+  + car 
+  + " down. <br>"
+); 
+document.write(
+"We decided to grab"
++ food
++  " "
++ " along the way. "
+
+
+)
